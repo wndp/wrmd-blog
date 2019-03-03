@@ -983,3 +983,22 @@ object {
 .gallery-caption {
 	display: block;
 }
+
+
+/*******************************************************************/
+
+#page {
+	max-width: 960px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	grid-gap: 10px;
+}
+
+#masthead, #colophon {
+	grid-column: 1 / -1;
+}
+
+.site-main {
+
+}
