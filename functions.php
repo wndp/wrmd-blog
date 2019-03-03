@@ -105,13 +105,18 @@ add_action( 'after_setup_theme', 'wrmd_blog_content_width', 0 );
  */
 function wrmd_blog_widgets_init() {
 	register_sidebar( array(
-		'name'          => esc_html__( 'Sidebar', 'wrmd-blog' ),
-		'id'            => 'sidebar-1',
-		'description'   => esc_html__( 'Add widgets here.', 'wrmd-blog' ),
-		'before_widget' => '<section id="%1$s" class="widget %2$s panel panel-info">',
-		'after_widget'  => '</div></section>',
-		'before_title' => '<div class="panel-heading"><h3 class="widget-title panel-title">',
-		'after_title' => '</h3></div><div class="panel-body">',
+		'name' => 'side-bar',
+        'before_widget' => '<div id="%1$s" class="%2$s panel panel-info">',
+        'before_title' => '<div class="panel-heading"><h3 class="panel-title">',
+        'after_title' => '</h3></div><div class="panel-body">',
+        'after_widget' => '</div></div>'
+		// 'name'          => esc_html__( 'Sidebar', 'wrmd-blog' ),
+		// 'id'            => 'sidebar-1',
+		// 'description'   => esc_html__( 'Add widgets here.', 'wrmd-blog' ),
+		// 'before_widget' => '<section id="%1$s" class="widget %2$s panel panel-info">',
+		// 'before_title' => '<div class="panel-heading"><h3 class="widget-title panel-title">',
+		// 'after_title' => '</h3></div><div class="panel-body">',
+		// 'after_widget'  => '</div></section>',
 	) );
 }
 add_action( 'widgets_init', 'wrmd_blog_widgets_init' );
