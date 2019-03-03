@@ -109,9 +109,9 @@ function wrmd_blog_widgets_init() {
 		'id'            => 'sidebar-1',
 		'description'   => esc_html__( 'Add widgets here.', 'wrmd-blog' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s panel panel-info">',
-		'after_widget'  => '</section>',
+		'after_widget'  => '</div></section>',
 		'before_title'  => '<h2 class="widget-title panel-title">',
-		'after_title'   => '</h2>',
+		'after_title'   => '</h2><div class="panel-body">',
 
 		// 'name'          => esc_html__( 'Sidebar', 'wrmd-blog' ),
 		// 'id'            => 'sidebar-1',
