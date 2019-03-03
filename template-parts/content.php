@@ -23,7 +23,7 @@
 			<div class="entry-meta">
 				<?php
 				wrmd_blog_posted_on();
-				wrmd_blog_posted_by();
+				/*wrmd_blog_posted_by();*/
 				?>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
