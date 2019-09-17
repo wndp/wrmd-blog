@@ -17,7 +17,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 	<link rel="stylesheet" href="https://www.wrmd.org/css/site.css">
-	<link rel="stylesheet" href="/dist/app.css">
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/dist/app.css">
 
 	<?php wp_head(); ?>
 </head>
