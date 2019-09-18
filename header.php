@@ -18,7 +18,6 @@
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 	<link rel="stylesheet" href="https://www.wrmd.org/css/site.css">
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/dist/app.css">
-
 	<?php wp_head(); ?>
 </head>
 
@@ -26,7 +25,9 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'wrmd-blog' ); ?></a>
 
-	<header class="site-header bg-light"><a href="https://www.wrmd.org" class="mediablock logo-stamp"><aside><svg version="1.1" id="logo_xA0_Image_1_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 229.4 324.2" xml:space="preserve"><style type="text/css">
+	<header class="site-header bg-light"><a href="https://www.wrmd.org" class="mediablock logo-stamp">
+		<aside>
+			<svg version="1.1" id="logo_xA0_Image_1_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 229.4 324.2" xml:space="preserve"><style type="text/css">
 	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#4DA64E;}
 	.st1{fill-rule:evenodd;clip-rule:evenodd;}
 	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
@@ -150,8 +151,19 @@
 	c-0.8-1-1.2-3-3-2.6c1.7,6.7,5.5,13,9,18.4c1.2,1.8,3.2,3.6,2.8,5.8c-2.4-1.1-3.7-3.9-5.2-6.2c-3.1-4.7-5.7-9.3-7.8-15
 	c-1-2.8-2.5-6.2-2.6-8.8c-0.1-1.8,0.4-3.3-0.4-5c-2.3,1.5-4.2,3.4-6.8,4.6c0.2,2.1-0.2,4.6-0.6,7c-0.3,2.2-0.3,5.3-1.8,6.4
 	c-1.3-0.2-0.7-1.9-0.6-2.8c0.3-3.4,1.1-7,1.4-10C94.5,233.9,91,232,88.8,229.4z" class="st1"></path> <path d="M184.8,49c3.3,4.6,3.8,13.3,3,20.8c-4.4,0.9-8.3,2.2-12.6,3.2c-1-0.2-0.8-1.6-1.6-2c-0.3-6.7-1.1-13-2.8-18.4
-	C175.6,51.6,180.1,50.1,184.8,49z M179.6,70.6c3.6-2.1,4-11.3,0.6-14C172.5,55.2,173,71.2,179.6,70.6z" class="st2"></path></svg></aside> <section><div>WRMD</div> <span class="wrmd">Wildlife Rehabilitation <span class="md">MD</span></span></section></a> <nav class="bg-b"><a href="https://www.wrmd.org/features" class="unit-1-2-mobile">Features</a> <a href="http://help.wrmd.org" class="unit-1-2-mobile">Get Help</a> <a href="https://www.wrmd.org/signin" class="unit-1-1-mobile">Sign In</a></nav> <div class="donation-badge"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=YELQ4E9958KYG"><div class="mediablock"><aside><svg class="icon icon-heart"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/img/symbol-defs.svg#icon-heart"></use></svg></aside> <section>Make a Donation</section></div></a></div></header>
+	C175.6,51.6,180.1,50.1,184.8,49z M179.6,70.6c3.6-2.1,4-11.3,0.6-14C172.5,55.2,173,71.2,179.6,70.6z" class="st2"></path></svg>
+	</aside>
+	<section><div>WRMD</div> <span class="wrmd">Wildlife Rehabilitation <span class="md">MD</span></span></section></a> <nav class="bg-b"><a href="https://www.wrmd.org/features" class="unit-1-2-mobile">Features</a> <a href="http://help.wrmd.org" class="unit-1-2-mobile">Get Help</a> <a href="https://www.wrmd.org/signin" class="unit-1-1-mobile">Sign In</a></nav> <div class="donation-badge">
+	<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=YELQ4E9958KYG">
+		<div class="mediablock">
+		<aside>
+			<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" xml:space="preserve">
+				<path d="M16 29.714c-0.286 0-0.571-0.107-0.786-0.321l-11.143-10.75c-0.143-0.125-4.071-3.714-4.071-8 0-5.232 3.196-8.357 8.536-8.357 3.125 0 6.054 2.464 7.464 3.857 1.411-1.393 4.339-3.857 7.464-3.857 5.339 0 8.536 3.125 8.536 8.357 0 4.286-3.929 7.875-4.089 8.036l-11.125 10.714c-0.214 0.214-0.5 0.321-0.786 0.321z"></path>
+			</svg>
 
-
+		</aside> <section>Make a Donation</section>
+		</div>
+	</a>
+	</div></header>
 
 	<div id="content" class="site-content">
