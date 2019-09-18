@@ -239,3 +239,12 @@ object {
     margin: 0;
     list-style: none;
 }
+
+.search-form {
+    display: flex;
+    align-items: flex-end;
+
+    .search-submit {
+        margin-left: 10px
+    }
+}
