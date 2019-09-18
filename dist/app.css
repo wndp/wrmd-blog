@@ -11070,6 +11070,14 @@ object {
   margin-left: 10px;
 }
 
+#donation-badge svg {
+  fill: #fff;
+}
+
+#footer-social svg {
+  fill: #dbdbdb;
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;
