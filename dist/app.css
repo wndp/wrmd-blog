@@ -11070,11 +11070,15 @@ object {
   margin-left: 10px;
 }
 
-#donation-badge svg {
+.donation-badge svg {
+  height: 28px;
+  width: 28px;
   fill: #fff;
 }
 
-#footer-social svg {
+.footer-social svg {
+  height: 28px;
+  width: 28px;
   fill: #dbdbdb;
 }
 
