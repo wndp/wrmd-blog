@@ -987,7 +987,7 @@ object {
 
 /*******************************************************************/
 
-#content {
+/*#content {
 	display: grid;
 	grid-gap: 20px;
     grid-template-columns: 3fr 1fr;
@@ -1001,4 +1001,4 @@ object {
 
 .widget .panel-body>ul {
 	margin: 0;
-}
+}*/
