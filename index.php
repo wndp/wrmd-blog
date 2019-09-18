@@ -42,7 +42,7 @@ get_header();
 
 			endwhile;
 
-			the_posts_navigation(['screen_reader_text' => '']);
+			the_posts_navigation();
 
 		else :
 
