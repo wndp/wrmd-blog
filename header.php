@@ -25,7 +25,7 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'wrmd-blog' ); ?></a>
 
-	<header class="site-header bg-light"><a href="https://www.wrmd.org" class="mediablock logo-stamp">
+	<header class="site-header bg-light"><a href="<?php echo get_home_url() ?>" class="mediablock logo-stamp">
 		<aside>
 			<svg version="1.1" id="logo_xA0_Image_1_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 229.4 324.2" xml:space="preserve"><style type="text/css">
 	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#4DA64E;}
