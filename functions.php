@@ -113,10 +113,6 @@ function wrmd_blog_widgets_init() {
 		'before_title'  => '<div class="panel-heading"><h3 class="widget-title panel-title">',
 		'after_title'   => '</h3></div><div class="panel-body">',
 	) );
-}
-add_action( 'widgets_init', 'wrmd_blog_widgets_init' );
-
-function wrmd_blog_widgets_init() {
 	register_sidebar( array(
 		'name'          => esc_html__( 'Knowledge Base Sidebar', 'wrmd-blog' ),
 		'id'            => 'sidebar-1',
