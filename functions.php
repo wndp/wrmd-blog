@@ -115,7 +115,7 @@ function wrmd_blog_widgets_init() {
 	) );
 	register_sidebar( array(
 		'name'          => esc_html__( 'Knowledge Base Sidebar', 'wrmd-blog' ),
-		'id'            => 'sidebar-1',
+		'id'            => 'sidebar-2',
 		'description'   => esc_html__( 'Add widgets here.', 'wrmd-blog' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s panel panel-info">',
 		'after_widget'  => '</div></section>',
