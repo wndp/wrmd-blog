@@ -9,14 +9,14 @@
 
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
+<article id="post-<?php the_ID(); ?>" <?php post_class('panel panel-default'); ?>>
+	<header class="panel-heading">
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-	</header><!-- .entry-header -->
+	</header><!-- .panel-heading -->
 
 	<?php wrmd_blog_post_thumbnail(); ?>
 
-	<div class="entry-content">
+	<div class="panel-body">
 		<?php
 		the_content();
 
@@ -25,28 +25,11 @@
 			'after'  => '</div>',
 		) );
 		?>
-	</div><!-- .entry-content -->
+	</div><!-- .panel-body -->
 
 	<?php if ( get_edit_post_link() ) : ?>
-		<footer class="entry-footer">
-			<?php
-			edit_post_link(
-				sprintf(
-					wp_kses(
-						/* translators: %s: Name of current post. Only visible to screen readers */
-						__( 'Edit <span class="screen-reader-text">%s</span>', 'wrmd-blog' ),
-						array(
-							'span' => array(
-								'class' => array(),
-							),
-						)
-					),
-					get_the_title()
-				),
-				'<span class="edit-link">',
-				'</span>'
-			);
-			?>
-		</footer><!-- .entry-footer -->
+		<footer class="panel-footer">
+
+		</footer><!-- .panel-footer -->
 	<?php endif; ?>
 </article><!-- #post-<?php the_ID(); ?> -->
