@@ -9,7 +9,7 @@
 
 ?>
 
-<?php do_shortcode('[pakb_search]'); ?>
+<?php echo do_shortcode('[pakb_search]'); ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class('panel panel-default'); ?>>
 	<header class="panel-heading">
