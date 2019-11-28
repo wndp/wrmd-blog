@@ -26,10 +26,4 @@
 		) );
 		?>
 	</div><!-- .panel-body -->
-
-	<?php if ( get_edit_post_link() ) : ?>
-		<footer class="panel-footer">
-
-		</footer><!-- .panel-footer -->
-	<?php endif; ?>
 </article><!-- #post-<?php the_ID(); ?> -->
