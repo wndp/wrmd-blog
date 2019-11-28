@@ -9,16 +9,14 @@
 
 ?>
 
-<?php echo do_shortcode('[pakb_search]'); ?>
-
-<article id="post-<?php the_ID(); ?>" <?php post_class('panel panel-default'); ?>>
-	<header class="panel-heading">
+<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+	<header>
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 	</header><!-- .panel-heading -->
 
 	<?php wrmd_blog_post_thumbnail(); ?>
 
-	<div class="panel-body">
+	<div>
 		<?php
 		the_content();
 
