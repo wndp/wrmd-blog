@@ -16,7 +16,7 @@
 
 	<?php wrmd_blog_post_thumbnail(); ?>
 
-	<div>
+	<div class="page-body">
 		<?php
 		the_content();
 
