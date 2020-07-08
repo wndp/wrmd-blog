@@ -12,7 +12,7 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header>
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-	</header><!-- .panel-heading -->
+	</header><!-- .panel-heading test -->
 
 	<?php wrmd_blog_post_thumbnail(); ?>
 
