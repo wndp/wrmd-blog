@@ -10,10 +10,14 @@
         the_post();
     ?>
 
-    <article id="post-<?php the_ID(); ?>" <?php post_class('panel panel-default'); ?>>
+    <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
         <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 
-        <?php the_content(); ?>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <?php the_content(); ?>
+            </div>
+        </div>
     </article><!-- #post-<?php the_ID(); ?> -->
 
     <?php endwhile; // End of the loop. ?>
